@@ -2,6 +2,7 @@
 */input/*
 */temp/*
 */output/*
+*/output/.DS_Store
 
 *.png
 
