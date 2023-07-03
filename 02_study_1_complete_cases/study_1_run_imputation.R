@@ -16,7 +16,7 @@ if(dir.exists(file.path("../output/study1/complete_cases/")) == FALSE) {
 }
 write_csv(data_complete, paste0("../output/study1/complete_cases/complete_cases.csv"))
 
-# Initate h2o
+# Initiate h2o
 h2o.init()
 
 # Run imputation

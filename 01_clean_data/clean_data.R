@@ -5,7 +5,7 @@ library(splitstackshape)
 library(testthat)
 
 # Load data
-related_questions <- fread("../data/question_dictionary.csv")
+related_questions <- fread("../data/related_question_dictionary.csv")
 v6_questions <- fread("../data/drh_v6_poll.csv") %>% rename(quest = Question, quest_desc = `Question description`)
 data <- fread("../data/drh.csv") 
 

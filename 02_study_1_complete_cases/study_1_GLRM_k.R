@@ -10,7 +10,7 @@ questions <- read_csv("../data/drh_v6_poll.csv")
 # Select only complete cases of the 15 most answered questions
 data_complete <- complete_cases_filter(data, 15)
 
-# Initate h2o
+# Initiate h2o
 h2o.init(nthreads = -1)
 
 # Find optimal value of k for glrm 
