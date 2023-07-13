@@ -13,3 +13,4 @@ output/.DS_Store
 .RData
 .Ruserdata
 data/drh.csv
+output
